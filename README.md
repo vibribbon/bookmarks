@@ -13,6 +13,7 @@ sudo mv /user/local/bin/pcinfo.sh /user/local/bin/pcinfo
 
 Dependancies: dmenu
 sudo apt-get install dmenu
+The Dmenu project is located here: https://tools.suckless.org/dmenu/
 
 This tool is designed to be terminal only and extremely small with few dependencies. Some components do not work on weyland currently.
 
