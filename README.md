@@ -7,9 +7,13 @@ place bookmarks in ~/bookmarks.txt, personal bokmarks in ~/bookmarks_personal.tx
 All scripts are without any kind of warranty, use entirely at your own risk!
 
 On linux place into /user/local/bin/ and change permissions as follows: 
-sudo chown root /user/local/bin/pcinfo.sh 
-sudo chmod 755 /user/local/bin/pcinfo.sh 
-sudo mv /user/local/bin/pcinfo.sh /user/local/bin/pcinfo
+sudo chown root /user/local/bin/bmark.sh 
+sudo chmod 755 /user/local/bin/bmark.sh 
+sudo mv /user/local/bin/pcinfo.sh /user/local/bin/bmark
+
+sudo chown root /user/local/bin/bmarkp.sh 
+sudo chmod 755 /user/local/bin/bmarkp.sh 
+sudo mv /user/local/bin/pcinfo.sh /user/local/bin/bmarkp
 
 Dependancies: dmenu
 sudo apt-get install dmenu
